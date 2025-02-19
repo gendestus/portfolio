@@ -1,0 +1,58 @@
+hr {
+    border-color: #555;
+}
+
+#bio {
+    
+}
+#bio-image {
+    text-align: center;
+}
+#bio-image img {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#bio-real-name {
+    text-align: center;
+    font-size: 1.5em;
+    color: #f5f5f5;
+    margin-top: 5px;
+}
+#bio-alias {
+    text-align: center;
+    font-size: 1.0em;
+    color: #f5f5f5;
+    margin-top: 5px;
+    font-style: italic;
+}
+#bio-description {
+    text-align: center;
+    font-size: 1.0em;
+    color: #f5f5f5;
+    margin-top: 20px;
+}
+
+
+.bio-element {
+    display: grid;
+    grid-template-columns: 10% auto;
+    gap: 15px;
+    margin-top:20px;
+}
+.bio-element a {
+    color: white;
+    text-decoration: none;
+}
+.bio-element-image {
+    text-align: center;
+}
+.bio-element-image i {
+    margin-top: 25%;
+    color: #862e2e;
+}
+.bio-element-title {
+    font-size: 0.8em;
+    color: #757575;
+}
