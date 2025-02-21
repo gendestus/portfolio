@@ -1,0 +1,31 @@
+.project {
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.project-description {
+    font-size: 0.8em;
+    color: rgb(195, 172, 55);
+    margin-top: 10px;
+    text-align: justify;
+}
+.project-image {
+    width: 100%;
+    height: 20vh;
+    background-color: #d5d5d5;
+    position: relative;
+    border-radius: 20px 20px 0 0;
+}
+.project-title {
+    /* put the div at the bottom of the container */
+    position: absolute;
+    bottom: 0;
+    
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    text-align: right;
+}
+.project-title div {
+    padding-right: 10px;
+}
